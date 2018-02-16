@@ -12,6 +12,8 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    clear: both;
+    width: 960px;
 }
 
 .nav {
@@ -21,17 +23,20 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    clear: both;
+    width: 960px;
 }
 
 .section {
     background-color: #ccc;
     color: #ebebeb;
     margin: auto;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: auto;
     width: 495px;
     float: left;
+    
 }
 
 .article {
@@ -41,7 +46,7 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    width: 495px;
+    width:50%;
     float: left;
 }
 
@@ -52,13 +57,10 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    width:40%;
-    float: right;    
+    width:50%;
+   
 }
 
-.clear {
-
-}
 .footer {
     background: #ccc;
     color: #ebebeb;
@@ -67,6 +69,8 @@ body {
     margin-bottom: 20px;
     text-align: center;
     clear: both;
+    overflow: auto;
+    width: 960px;
 }
 
 
